@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    String s = "Msddsd";
+    final String s = "Msddsd";
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Catalog'),
+        title: Text('Catalog App'),
       ),
       body: Center(
         child: Container(
